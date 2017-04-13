@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  phpfpm:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./:/var/www/upsidedowntext.online/
+
+  nginx:
+    build: docker/nginx/.
+    links:
+        - phpfpm
+#    volumes:
+#      - ./docker/nginx/logs/error.log:/var/log/nginx/error.log
+#      - ./docker/nginx/logs/access.log:/var/log/nginx/access.log
+#      - ./docker/nginx/:/etc/nginx/conf.d/
+#      - ./docker/nginx/upsidedowntext.online:/etc/nginx/sites-enabled/default
+    privileged: true
+    ports:
+     - "8080:80"
+
+  redis:
+    image: "redis:alpine"
