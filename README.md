@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://about.gitlab.com/" target="_blank"><img src="https://img.shields.io/badge/Developed%20on-Private%20GitLab-red.svg?style=flat-square" alt="Developed on Private GitLab"></a>
-  <a href="https://github.com/rohimma/upsidedowntext.online" target="_blank"><img src="https://img.shields.io/badge/Mirrored%20to-GitHub-lightgrey.svg?style=flat-square" alt="Mirrored to GitHub"></a>
+  <a href="https://about.gitlab.com/" target="_blank"><img src="https://img.shields.io/badge/Developed%20on-Private%20GitLab-red.svg?style=flat&maxAge=3600" alt="Developed on Private GitLab"></a>
+  <a href="https://github.com/rohimma/upsidedowntext.online" target="_blank"><img src="https://img.shields.io/badge/Mirrored%20to-GitHub-lightgrey.svg?style=flat&maxAge=3600" alt="Mirrored to GitHub"></a>
 </p>
 
 <img src="https://raw.githubusercontent.com/rohimma/upsidedowntext.online/master/resources/assets/images/homepage.PNG" />
