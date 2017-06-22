@@ -47,4 +47,4 @@ window.axios.defaults.headers.common = {
 //     key: 'your-pusher-key'
 // });
 
-window.Clipboard = require('Clipboard');
+window.Clipboard = require('clipboard');
