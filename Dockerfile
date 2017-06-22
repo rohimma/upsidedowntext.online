@@ -22,3 +22,4 @@ EXPOSE 9000
 
 WORKDIR /var/www/upsidedowntext.online
 
+# composer install && npm install && npm run dev && chown www-data:www-data -R storage bootstrap/cache && cp .env.docker .env && php artisan key:generate && php artisan config:cache

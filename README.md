@@ -15,12 +15,6 @@ yes, there will be an api service for this (will work on that after the docker i
 ### Dev env setup
 1. `docker-compose up --build`  
 2. `docker exec -it [website_phpfpm container id] /bin/bash`
-3. `composer install`
-4. `npm install`
-5. `npm run dev`
-6. `chown www-data:www-data -R storage bootstrap/cache`
-7. `cp .env.example .env`
-8. `php artisan key:generate`
-9. `php artisan config:cache`
+3. `composer install && npm install && npm run dev && chown www-data:www-data -R storage bootstrap/cache && cp .env.docker .env && php artisan key:generate && php artisan config:cache`
 
 inspiration from <a href="https://tweetfleet.slack.com/messages/@craqgerbil" target="_blank">@craqgerbil</a> on <a href="https://tweetfleet.slack.com/" target="_blank">#tweetfleet</a>
